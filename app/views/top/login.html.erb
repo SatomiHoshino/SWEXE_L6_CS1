@@ -1,3 +1,5 @@
+<%= flash[:notice] %>
+
 <%= form_tag top_login_path, method: :post do %>
   <%= label_tag :uid, 'uid' %> 
   <%= text_field_tag :uid %> 
